@@ -6,6 +6,12 @@ import (
 
 func main() {
 
-	fmt.Println("hello i am there and lets code")
+	x := 24
+	p := &x
+
+	fmt.Println(p)
+
+	*p = 40
+	fmt.Println(x)
 
 }
